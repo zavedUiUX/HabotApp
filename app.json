@@ -2,6 +2,20 @@
   "expo": {
     "name": "HabotApp",
     "slug": "HabotApp",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/habotIcon.png",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/habotIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "103a27d4-3363-417d-9047-1b2277aacb68"
+      }
+    }
   }
 }
